@@ -1,0 +1,32 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.keystore
+*.jks
+
+# Node.js
+node_modules/
+**/node_modules/
+npm-debug.log*
+
+# Build output
+website/dist/
+website/assistant-effects-dist/
+android/.gradle/
+android/local.properties
+android/**/build/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
